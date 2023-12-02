@@ -1,0 +1,67 @@
+.container-todoApp{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+.menu-todoApp{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+.box-todoApp{
+    width: 100%;
+}
+.option{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 30%;
+    font-size: 20px;
+}
+.option:focus{
+    border-bottom: 2px solid blue;
+}
+.form-add{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.button-add{
+    cursor: pointer;
+    height: 35px;
+    width: 20%;
+    color: white;
+    background-color: rgb(13, 0, 255);
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+.job{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-all{
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-end !important; 
+    align-items: center;
+}
+.button-delete-all{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 1px red solid;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+}
